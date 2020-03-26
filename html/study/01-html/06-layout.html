@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>layout</title>
+    <style>
+        #wrap {}
+        .wrap {
+            border: 5px solid #ffeed2;
+            }
+        .header {
+            display: flex;
+            background: #d7bbf7;
+        }
+         nav > ul {
+            display: flex;
+        }
+        
+        .container{
+            display: flex;
+            margin: 10px 0;
+            background: #b39ff5;
+        }
+      .contents {
+            width: 70%;
+            background: #ffe0e5;
+        }
+        .contents section {
+            border: 1px solid red;
+        }
+        .contents article {
+            display: block;
+            border: 1px solid blue;
+        }
+
+        aside {
+            width: 30%;
+            background: #fdeff2;
+        }
+
+        footer {
+            display: flex;
+            background: lightpink;
+        }
+
+        h1 {
+            width: 30%;
+            background: #ffe0e5;
+        }
+        
+        .col-right {
+            width: 70%;
+        }
+
+        address {
+            background: #ffe0e5;
+        }
+
+        .copyright {
+            background: #ffe0e5;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="Wrap" class="wrap">
+        <header class="header">
+            <h1><a href="#">로고</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="#">메뉴1</a></li>
+                    <li><a href="#">메뉴2</a></li>
+                    <li><a href="#">메뉴3</a></li>
+                    <li><a href="#">메뉴4</a></li>
+                    <li><a href="#">메뉴5</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="container">
+            <div class="contrnts">
+                <section>
+                    <header>
+                        <h2>컨텐츠 그룹1</h2>
+                    </header>
+                    <div class="cont">
+                        컨텐츠 내용
+                    </div>
+                    <footer></footer>
+                </section>
+
+                <section>
+                    <header>
+                        <h2>컨텐츠 그룹2</h2>
+                    </header>
+                    <div class="cont">
+                        컨텐츠 내용
+                    </div>
+                    <footer></footer>
+                </section>
+
+                <article>
+                    <h2>주요 기사</h2>
+                </article>
+            </div>
+            <aside>
+                어사이드
+            </aside>
+        </div>
+        <footer>
+            <h1><a href="#">로고</a></h1>
+            <adress>
+                경기도 부천시 상동로 메가플러스 <br>
+                <a href="tel:032-2225-5442">032-2225-5442</a> <br>
+                <a href="mailto:yc5998@naver.com">yc5998@naver.com</a>
+            </adress>
+            <p class="copyright">
+                copyright &#169; NAVER Corp.
+            </p>
+
+        </footer>
+    </div>
+
+
+</body>
+
+</html>

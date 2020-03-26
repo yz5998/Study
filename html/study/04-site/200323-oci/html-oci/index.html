@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- 반응형 페이지 뷰포트 설정 -->
+  <meta name="apple-mobile-web-app-title" content="OCI" />
+  <title>OCI</title>
+  
+  <link rel="stylesheet" href="./dist/css/module/line-awesome.css"/> <!-- 이미지 아이콘 -->
+  <link rel="stylesheet" href="./dist/css/module/slick.css" />  <!-- 이미지 슬라이드 -->
+  <link rel="stylesheet" href="./dist/css/module/slick-theme.css" />  <!-- 이미지 슬라이드 테마 -->
+  <link rel="stylesheet" type="text/css" href="./dist/css/comm.css">   <!-- my css -->
+  <script src="./dist/js/module/jquery.min.js"></script>   <!-- 필수 jQuery -->
+  <script src="./dist/js/module/slick.min.js"></script>  <!-- 이미지 슬라이드 -->
+  <script src="./dist/js/module/jquery.scrollUp.min.js"></script> <!-- scroll top -->
+  <script src="./dist/js/comm.js"></script> <!-- my js -->
+  <!-- ie9 이하 버전에서 잘 보이도록 추가 -->
+  <!--[if lt IE 9]>
+  	<script src="./dist/js/module/html5.js"></script>
+  	<script src="./dist/js/module/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="skipnavigation">
+    <a href="#gnb"><span>주요메뉴 바로가기</span></a>
+    <a href="#main"><span>본문 바로가기</span></a>
+    <a href="#login"><span>로그인 바로가기</span></a>
+  </div>
+  <div class="wrap">
+    <!-- header -->
+    <header>
+      <div class="inner_header">
+        <h1>
+          <a href="#">OCI</a>
+        </h1>
+        <nav>
+          <a href="#" class="nav-bar" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </a>          
+          <script>
+          function myFunction(x) {
+            x.classList.toggle("change");
+          }          
+          </script>
+          <ul class="nav-depth1 hide">
+            <li>
+              <a href="#">하나</a>
+              <ul class="nav-depth2">
+                <li><a href="#">하나-1</a></li>
+                <li><a href="#">하나-2</a></li>
+                <li><a href="#">하나-3</a></li>
+                <li><a href="#">하나-4</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">둘둘둘둘둘</a>
+              <ul class="nav-depth2">
+                <li><a href="#">둘-1</a></li>
+                <li><a href="#">둘-2</a></li>
+                <li><a href="#">둘-3</a></li>
+                <li><a href="#">둘-4</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">셋셋셋</a>
+              <ul class="nav-depth2">
+                <li><a href="#">셋셋셋-1</a></li>
+                <li><a href="#">셋셋셋-2</a></li>
+                <li><a href="#">셋셋셋-3</a></li>
+                <li><a href="#">셋셋셋-4</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">넷넷넷</a>
+              <ul class="nav-depth2">
+                <li><a href="#">넷넷넷-1</a></li>
+                <li><a href="#">넷넷넷-2</a></li>
+                <li><a href="#">넷넷넷-3</a></li>
+                <li><a href="#">넷넷넷-4</a></li>
+                <li><a href="#">넷넷넷-5</a></li>
+                <li><a href="#">넷넷넷-6</a></li>
+                <li><a href="#">넷넷넷-7</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">다섯</a>
+              <ul class="nav-depth2">
+                <li><a href="#">다섯-1</a></li>
+                <li><a href="#">다섯-2</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- //header -->
+    <!-- slide -->
+    <div class="slide-main">
+      <div>
+        <img src="./images/slide1.jpg" alt="">
+        <div class="txt-ani">
+          <span>CORPORATE SOCIAL RESPONSIBILITY</span>
+          <b>Embracing diversity for shared growth</b>
+          <a href="#" class="link-more">see more</a>
+        </div>
+      </div>
+      <div>
+        <img src="./images/slide2.jpg" alt="">      
+        <div class="txt-ani">
+          <span>Basic Chemicals</span>
+          <b>Creates elements for a better world</b>
+          <a href="#" class="link-more">see more</a>
+        </div>
+      </div>
+      <div>
+        <img src="./images/slide3.jpg" alt="">
+        <div class="txt-ani">
+          <span>Petrochemicals & Carbon Materials</span>
+          <b>Provides solutions for a better world</b>
+          <a href="#" class="link-more">see more</a>
+        </div>
+      </div>
+    </div>
+    <!-- /slide -->
+    <!-- container -->
+    <div class="container">
+      <div class="contents">
+        <!-- businesses -->
+        <div class="sec_g sec_busi">
+          <h2>businesses</h2>
+          <div class="cont_g">
+            <ul>
+              <li>
+                <a href="#">
+                  <img src="./images/busi-1.jpg" alt="Basic Chemicals">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./images/busi-2.jpg" alt="Petro Chemicals and Chrbon Materials">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./images/busi-3.jpg" alt="Energy solutions">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- news -->
+        <div class="sec_g sec_news">
+          <h2>news</h2>
+          <div class="cont_g">
+            <ul>
+              <li>
+                <a href="#">
+                  <div class="col-left">
+                    <img src="./images/news-1.jpg" alt="">
+                  </div>
+                  <div class="col-right">
+                    <strong><em>[공지]</em>OCI, '자회사형 장애인표준 사업장' 설립 추진</strong>
+                    <p>OCI가 '자회사형 장애인표준사업장' 설립을 추진하며 장애인들을 위한 양질의 일자리...</p>
+                    <span>READ MORE</span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="col-left">
+                    <img src="./images/news-2.jpg" alt="">
+                  </div>
+                  <div class="col-right">
+                    <strong><em>[공지]</em>OCI, 포스코케미칼과 화학사업 강화 위한 전략적 제휴</strong>
+                    <p>에너지, 화학전문기업 OCI가 포스코케미칼과 손잡고 기존사업 역량 강화와 새로운 사업...</p>
+                    <span>READ MORE</span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="col-left">
+                    <img src="./images/news-3.jpg" alt="">
+                  </div>
+                  <div class="col-right">
+                    <strong><em>[질문]</em>OCI, 백우석 회장 승진 이우현 부회장, 김택중 사장 선입...</strong>
+                    <p>OCI (대표 백우석)는 3월 26일 주주총회 후 이사회를 갖고, 백우석 부회장을 회장에...</p>
+                    <span>READ MORE</span>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- notice -->
+        <div class="sec_g sec_notice">
+          <h2>notice</h2>
+          <div class="cont_g">
+            <ul class="lst_notice">
+              <li><a href="#"><span>2019 2Q 경영실적 자료</span></a></li>
+              <li><a href="#">PR자료실<span class="btn_more">더보기+</span></a></li>
+              <li><a href="#">재무정보</a></li>
+              <li><a href="#">IR자료실</a></li>
+              <li>
+                <ul class="lst_notice2">
+                  <li><a href="#">Annual Report</a></li>
+                  <li><a href="#">IR Rlelase</a></li>
+                  <li><a href="#">IR Fact Book</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 바로가기 -->
+        <div class="sec_g sec_">
+          <h2>타이틀</h2>
+          <div class="cont_g">
+
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+    <!-- //container -->
+    <!-- footer -->
+    <footer>
+      <h1><a href="#">회사로고</a></h1>
+      <div class="col_right">
+        <address></address>
+        <div class="copyright"></div>
+      </div>
+    </footer>
+    <!-- //footer -->
+  </div>
+</body>
+
+</html>
